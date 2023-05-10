@@ -10,6 +10,7 @@ void main(List<String> args) {
     for (var line in lines) {
       print(line);
       print('Hello');
+      print('test');
     }
   }
 }
