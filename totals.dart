@@ -9,6 +9,7 @@ void main(List<String> args) {
     final lines = File(inputFile).readAsLinesSync();
     for (var line in lines) {
       print(line);
+      print('Hello');
     }
   }
 }
